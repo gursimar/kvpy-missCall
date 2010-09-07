@@ -1,0 +1,1146 @@
+From: "Saved by Windows Internet Explorer 8"
+Subject: Variable scope in Python - Programming in Python and Ruby
+Date: Mon, 6 Sep 2010 06:18:09 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_005C_01CB4D8B.46CE9E10"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7600.16385
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_005C_01CB4D8B.46CE9E10
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Variable-scope-in-Python.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Variable scope in Python - Programming in Python and =
+Ruby</TITLE>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3Dcontent-type>
+<META name=3Dauthor content=3D"Lisa Ellis">
+<META name=3Dkeywords=20
+content=3D"Programming in Python and Ruby Programming in the  Python and =
+Ruby languages   Variable scope in Python bulletin board forum =
+discussion">
+<META name=3Ddescription=20
+content=3D"Variable scope in Python - Programming in Python and Ruby - =
+Programming in the  Python and Ruby languages  ; forum discussion">
+<META name=3Dreply-to content=3Dinfo@wellho.net>
+<META name=3Dversion content=3D6.0>
+<META name=3Dcopyright content=3D"Well House Consultants Ltd, 2010">
+<SCRIPT type=3Dtext/javascript><!-- Begin=0A=
+// JavaScript Document=0A=
+startList =3D function() {=0A=
+if (document.all&&document.getElementById) {=0A=
+navRoot =3D document.getElementById("tmen");=0A=
+for (i=3D0; i<navRoot.childNodes.length; i++) {=0A=
+node =3D navRoot.childNodes[i];=0A=
+if (node.nodeName=3D=3D"LI") {=0A=
+node.onmouseover=3Dfunction() {=0A=
+this.className+=3D" over";=0A=
+  }=0A=
+  node.onmouseout=3Dfunction() {=0A=
+  this.className=3Dthis.className.replace(" over", "");=0A=
+   }=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+}=0A=
+window.onload=3DstartList;=0A=
+// End -->=0A=
+</SCRIPT>
+<LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://www.wellho.net/bing/C3.css"><LINK rel=3Dicon =
+type=3Dimage/x-icon=20
+href=3D"http://www.wellho.net/whc.ico"><LINK rel=3D"shortcut icon" =
+type=3Dimage/x-icon=20
+href=3D"http://www.wellho.net/whc.ico">
+<META name=3DGENERATOR content=3D"MSHTML 8.00.7600.16625"></HEAD>
+<BODY bgColor=3D#ffffff>
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D0 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD colSpan=3D2>
+      <TABLE cellSpacing=3D0 width=3D"100%" callpadding=3D"0">
+        <TBODY>
+        <TR>
+          <TD width=3D300><IMG=20
+            src=3D"http://www.wellho.net/bing/images/WHClogoBW.jpg"> =
+</TD>
+          <TD vAlign=3Dtop>
+            <DIV class=3Dindentsides><SPAN class=3Dintrohead>Training, =
+Open Source=20
+            computer languages</SPAN><BR>
+            <DIV class=3Dgeneraltext><A=20
+            href=3D"http://www.wellho.net/course/perl.html">Perl</A> =95 =
+<A=20
+            href=3D"http://www.wellho.net/course/php.html">PHP</A> =95 =
+<A=20
+            href=3D"http://www.wellho.net/course/python.html">Python</A> =
+=95 <A=20
+            href=3D"http://www.wellho.net/course/mysql.html">MySQL</A> =
+=95 <A=20
+            href=3D"http://www.wellho.net/course/tomcat.html">Apache / =
+Tomcat</A>=20
+            =95 <A =
+href=3D"http://www.wellho.net/course/tcl-tk.html">Tcl</A> =95 <A=20
+            href=3D"http://www.wellho.net/course/ruby.html">Ruby</A> =95 =
+<A=20
+            href=3D"http://www.wellho.net/course/java.html">Java</A> =95 =
+<A=20
+            href=3D"http://www.wellho.net/course/c.html">C and C++</A> =
+=95 <A=20
+            href=3D"http://www.wellho.net/course/linux.html">Linux</A> =
+=95 <A=20
+            =
+href=3D"http://www.wellho.net/mouth/994_Training-on-Cascading-Style-Sheet=
+s.html">CSS</A>&nbsp;=20
+            <BR>
+            <FORM action=3D/net/search.php4>Search for: <INPUT size=3D10 =
+
+            name=3Dsearch> <INPUT style=3D"FONT-FAMILY: Arial; =
+BACKGROUND: #000000; COLOR: white; FONT-SIZE: 9pt" value=3Dgo =
+type=3Dsubmit>=20
+
+            <DIV class=3Drhm><A=20
+            =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Variab=
+le-scope-in-Python.html?pwidth=3Dwide">Print=20
+            friendly =
+page</A></DIV></FORM></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colSpan=3D2>
+      <TABLE width=3D"100%">
+        <TBODY>
+        <TR>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            href=3D"http://www.wellho.net/index.html">Home</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/resources/mywellho.html">Accessibility</A><=
+/TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/course/index.html">Courses</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/http">=
+Diary</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/http">=
+The=20
+            Mouth</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/forum/index.html">Forum</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/resources/index.html">Resources</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/resources/smap.php?adder=3D/forum">Site=20
+            Map</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            href=3D"http://www.wellho.net/net/staff.html">About =
+Us</A></TD>
+          <TD class=3Dbuttoff width=3D"10%"><A=20
+            =
+href=3D"http://www.wellho.net/resources/contact.html">Contact</A></TD></T=
+R></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop>
+      <TABLE border=3D0 width=3D"100%">
+        <TBODY>
+        <TR class=3Dgeneraltext cellpadding=3D"3" cellspacing=3D"0">
+          <TD bgColor=3D#88ff88 align=3Dmiddle><SPAN =
+class=3Dintrohead><BR>Vacancy -=20
+            Hotel work, Melksham. <A=20
+            =
+href=3D"http://www.wellho.net/job.html">[details]</A><BR></SPAN></TD>
+          <TD bgColor=3D#88ff88 align=3Dmiddle><BR><A=20
+            href=3D"http://www.wellhousemanor.co.uk/">Well House Manor =
+(Hotel)=20
+            site</A><BR><A=20
+            =
+href=3D"http://www.wellho.net/resources/globalindex.html">Well House=20
+            Consultants Global Technical Index</A><BR><A=20
+            =
+href=3D"http://www.wellho.net/melksham/climate.html">Melksham Weather=20
+            and Climate</A><BR><A=20
+            =
+href=3D"http://maps.google.co.uk/maps?q=3Dwell+house+manor+melksham&amp;b=
+tnG=3DSearch+Maps">Google=20
+            Maps and Reviews - Well House =
+Manor</A><BR><BR></TD></TR></TBODY></TABLE>
+      <DIV class=3Dintrohead>Variable scope in Python</DIV><BR>
+      <DIV class=3Dgeneraltext>
+      <DIV class=3Dintrosubheads>Posted by admin (Graham Ellis), 29 May=20
+      2004</DIV>The scope of variables (how widely they're seen, when =
+they are=20
+      created and destroyed, and the mechanisms through which the same =
+variable=20
+      can share several names) is one of tose topics that comes up in =
+any=20
+      programming language. &nbsp;Here's an example in Python that shows =
+some of=20
+      the options:<BR><BR><B>Code:</B>
+      <TABLE class=3Dbordercolor cellSpacing=3D1 width=3D"90%">
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE class=3Dcode cellSpacing=3D0 cellPadding=3D2 =
+width=3D"100%">
+              <TBODY>
+              <TR>
+                <TD><FONT class=3Dcode size=3D1 face=3D"Courier New">def =
+demo=20
+                  (f_in):<BR>&nbsp; &nbsp; &nbsp; &nbsp;global somevar =
+&nbsp;#=20
+                  shared with main code<BR>&nbsp; &nbsp; &nbsp; =
+&nbsp;demo.tom =3D=20
+                  16 &nbsp; # An attribute accessible from main =
+code<BR>&nbsp;=20
+                  &nbsp; &nbsp; &nbsp;somevar +=3D 1<BR>&nbsp; &nbsp; =
+&nbsp;=20
+                  &nbsp;another =3D 12 &nbsp; &nbsp;# A local variable,=20
+                  independent of main code<BR>&nbsp; &nbsp; &nbsp; =
+&nbsp;res =3D=20
+                  f_in+14 &nbsp; # Value passed in (f_in)<BR>&nbsp; =
+&nbsp;=20
+                  &nbsp; &nbsp;return res<BR><BR>somevar =3D 27 &nbsp; =
+&nbsp;#=20
+                  accessed in function via global<BR>another =3D 17 =
+&nbsp; &nbsp;#=20
+                  not accessed in function<BR>pval =3D 16 &nbsp; &nbsp; =
+&nbsp; #=20
+                  accessed in function via parameter<BR><BR>print =
+demo(pval)=20
+                  <BR><BR>print demo.tom &nbsp;# function =
+attribute<BR>print=20
+                  somevar<BR>print=20
+        =
+another<BR></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR=
+><BR><B>somevar</B>=20
+      is a declared in the function as a global variable, so that it's =
+the same=20
+      variable as somevar in the main code. Therefore it's initialised =
+to 27,=20
+      and incremented by the function to 29 which is the value printed=20
+      out.<BR><BR><B>pval</B> is initialised to 16 and is only used =
+under that=20
+      name in the main code. However, it's passed into the function =
+where it's=20
+      accessed under the name <B>f_in</B>, and where it gets increased =
+by 14, so=20
+      that the value 30 is printed out. &nbsp;Note that Python calls "by =
+
+      reference" rather than by copying the contents into the=20
+      function.<BR><BR><B>res</B> is a local variable used purely within =
+the=20
+      function<BR><BR>There are two different variables called =
+<B>another</B>.=20
+      One is in the main code and the other is in the function. They do =
+not=20
+      refer to the same information / object in any way - they just =
+happen to=20
+      have the same name. &nbsp;The variable name is rather like a =
+forename, so=20
+      the two anothers are as different as John Smith and John=20
+      Jones.<BR><BR><B>demo.tom</B> is a variable within the demo name, =
+and=20
+      we're able to reference it directly elsewhere too. &nbsp;It's =
+initialised=20
+      to 16 in the demo function, and printed out (showing that value) =
+in the=20
+      main code.<BR><BR><BR>
+      <DIV class=3Dintrosubheads>Posted by cloughie (cloughie), 19 =
+December=20
+      2007</DIV>You state that the pval variable is passed in 'by =
+reference',=20
+      but changing the value within the 'demo' function wouldn't =
+actually change=20
+      the value of pval outside of the function ... so I'm=20
+      confused.<BR><BR>Also, what's the benefit of declaring a variable =
+as=20
+      'demo.tom' over the global variable 'somevar'. &nbsp;They share =
+similar=20
+      facets as far as I can tell.<BR><BR>I must say, I do find the =
+scope of=20
+      variables confusing in certain situations. &nbsp;Normally I play =
+about=20
+      with the code until I eventually (after much frustration) get it=20
+      working.<BR><BR>Perhaps if I understood it a little better=20
+      ...<BR><BR>Regards,<BR><BR>
+      <DIV class=3Dintrosubheads>Posted by admin (Graham Ellis), 20 =
+December=20
+      2007</DIV>I'm really rushing around today, so please fogive a =
+slightly=20
+      shorter answer than normal.<BR><BR>The big use of a variable such =
+as=20
+      demo.tom within the demo namespace is that you can very cleraly =
+see that=20
+      it's a variable that's set up and relates to that modules / =
+namespace and=20
+      won't conflict with other variables of the same name in othe =
+modules /=20
+      namespaces. <BR><BR>If you have a single global "copyright" =
+variable, but=20
+      then several modules each of which had its own copyright, you =
+would have a=20
+      problem. &nbsp; But with a copyright variable in each module, =
+problem=20
+      solved.<BR><BR></FONT><BR>
+      <HR>
+
+      <DIV class=3Dgeneraltext>This page is a thread posted to the =
+opentalk forum=20
+      at <A =
+href=3D"http://www.opentalk.org.uk/">http://www.opentalk.org.uk/</A>=20
+      and archived here for reference. To jump to the archive index =
+please=20
+      follow <A href=3D"http://www.wellho.net/forum/top.html">this =
+link</A>.=20
+      </DIV></DIV>
+      <DIV class=3Dgeneraltext>
+      <DIV class=3Dindentsides>
+      <HR align=3Dcenter SIZE=3D1 width=3D"100%">
+
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+        <TR>
+          <TD class=3Dgeneraltext colSpan=3D3><BR><A=20
+            href=3D"http://www.wellho.net/net/rank.html" =
+target=3Drank>Visitor=20
+            Ranking</A> 4.0 (5=3Dexcellent, 1=3Dpoor)</TD></TR>
+        <TR>
+          <TD class=3Dgeneraltext colSpan=3D3>
+        <TR>
+          <TD class=3Dgeneraltext colSpan=3D3>Back to <A=20
+            =
+href=3D"http://www.wellho.net/resources/ex.php4">/resources/ex.php4?item=3D=
+y105/locvar.py</A></TD></TR></TD></TR></TBODY></TABLE><BR><A=20
+      href=3D"http://www.wellho.net/net/rank.html?edit=3D1" =
+target=3Drank>edit your=20
+      own (not yet published) comments</A><BR><BR>Average page ranking - =
+
+      4.0</DIV></DIV></TD>
+    <TD class=3Dgeneraltext vAlign=3Dtop width=3D250>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid>
+      <DIV class=3Dintrohead>Public Training Courses </DIV>Running =
+regularly at=20
+      our UK training Centre.<BR>[<A=20
+      href=3D"http://www.wellho.net/course/index.html">Schedule</A>] - =
+[<A=20
+      href=3D"http://www.wellho.net/course/ctc.html">About</A>] - [<A=20
+      href=3D"https://lightning.he.net/~wellho/coursebooking/index.php"=20
+      target=3Dbkg>Book</A>]<BR></DIV></DIV>
+      <DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid>
+      <DIV class=3Dintrohead>Other Forum Posts</DIV>
+      <DIV class=3Dgeneraltext>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Format=
+ting-SQL-output.html">Formatting=20
+      SQL output </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Awkwar=
+d-looking-code.html">Awkward=20
+      looking code </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><B>Variable scope in Python =
+</B><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/menu.h=
+tml">menu=20
+      </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Except=
+ion-Handling.html">Exception=20
+      Handling </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/PYTHON=
+-on-LINUX.html">PYTHON=20
+      on LINUX </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/python=
+-with-tomcat-on-windows.html">python=20
+      with tomcat on windows </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Format=
+ting.html">Formatting=20
+      </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/In-Mys=
+ql-longblob-is-not-storing-more-than-200kb.html">In=20
+      Mysql, longblob is not storing more than 200kb =
+</A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/keyboa=
+rd-and-mouse-event.html">keyboard=20
+      and mouse event </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Python=
+-Imaging-Library-PIL.html">Python=20
+      Imaging Library (PIL) </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/not-ab=
+le-to-access-accessor-function-generated-by.html">not=20
+      able to access accessor function generated by </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Sound-=
+control.html">Sound=20
+      control </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/could-=
+any-one-change-this-code-to-php.html">could=20
+      any one change this code to php </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Zope-a=
+nd-Plone-Training-with-or-without-Python.html">Zope=20
+      and Plone Training - with or without Python </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Unicod=
+e-support-in-Ruby.html">Unicode=20
+      support in Ruby </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Regula=
+r-expressions-findall-or-split.html">Regular=20
+      expressions - findall or split? </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/The-fu=
+ture-of-Python.html">The=20
+      future of Python </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/instal=
+lation-of-rails-off-the-rails.html">installation=20
+      of rails off the rails! </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Should=
+-I-use-from-or-import.html">Should=20
+      I use from or import? </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Game-P=
+rogramming-with-Python-trouble.html">Game=20
+      Programming with Python trouble </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Win32A=
+PI-and-GetFileVersionInfo.html">Win32API=20
+      and GetFileVersionInfo </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/object=
+-relationships.html">object=20
+      relationships </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Unable=
+-to-put-the-plugins-of-Python-in-Eclipse3-1.html">Unable=20
+      to put the plugins of Python in Eclipse3.1 </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Ruby-O=
+penGL-124-GNUT.html">Ruby:=20
+      OpenGL &amp;#124; GNUT </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/python=
+-and-pyqt.html">python=20
+      and pyqt </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Jython=
+-replace-value-with-another-value.html">Jython:replace=20
+      value with another value </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Except=
+ion-while-running-jython-script.html">Exception=20
+      while running jython script </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Jython=
+-How-nbsp-to-replace-parameters-in-URL-path.html">Jython:How=20
+      &amp;nbsp;to replace parameters in URL path? </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Python=
+-Challenge.html">Python=20
+      Challenge </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Common=
+-Python-questions.html">Common=20
+      Python questions </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/fancy-=
+code-reviewing-some-python.html">fancy=20
+      code reviewing some python ? </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/what-i=
+s-the-difference-between-range-amp-xrange-py.html">what=20
+      is the difference between range &amp;amp; xrange (py) =
+</A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/doubt-=
+in-python-program.html">doubt=20
+      in python program </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Exampl=
+es.html">Examples=20
+      </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Everyt=
+hing-is-an-object.html">Everything=20
+      is an object </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/What-c=
+an-Phyton-Really-do.html">What=20
+      can Phyton Really do? </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Buildi=
+ng-sites-with-Zope-and-Python.html">Building=20
+      sites with Zope and Python </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Do-you=
+-do-Jython-training.html">Do=20
+      you do Jython training? </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Huge-f=
+iles-in-Python-over-4-Gbytes.html">Huge=20
+      files in Python - over 4 Gbytes </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/hy-quo=
+t-print-gt-gt-quot-is-wrong.html">hy=20
+      &amp;quot;print &amp;gt;&amp;gt;&amp;quot; is wrong =
+</A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/CGI-ta=
+bles-in-Ruby.html">CGI=20
+      tables in Ruby </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/PyQt-E=
+xample.html">PyQt=20
+      - Example </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Python=
+-Sort-Order.html">Python=20
+      - Sort Order </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Sortin=
+g-a-dictionary-in-Python.html">Sorting=20
+      a dictionary in Python </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/shuffl=
+ing.html">shuffling=20
+      </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Python=
+-and-SQL-the-DB-API-and-Gadfly.html">Python=20
+      and SQL / the DB API and Gadfly </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Runnin=
+g-shell-commands-from-Python.html">Running=20
+      shell commands from Python </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Where-=
+do-add-an-exception-block.html">Where=20
+      do add an exception block </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/How-fa=
+r-from-your-Python.html">How=20
+      far from your Python? </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Printi=
+ng-out-currencies-in-Python.html">Printing=20
+      out currencies in Python </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/Python=
+-comes-to-Opentalk-RG25-25th-December-03.html">Python=20
+      comes to Opentalk! (RG25, 25th December 03) </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/New-re=
+lease-of-Ruby-SN12-20040103.html">New=20
+      release of Ruby (SN12 20040103) </A><BR></DIV></DIV>
+      <DIV class=3Dlineeven>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/A-Rose=
+tte-for-Ruby-NN10-20030910.html">A=20
+      Rosette for Ruby (NN10, 20030910) </A><BR></DIV></DIV>
+      <DIV class=3Dlineodd>
+      <DIV class=3Dmenugrid><A=20
+      =
+href=3D"http://www.wellho.net/forum/Programming-in-Python-and-Ruby/What-i=
+s-Ruby-LL57-7th-Oct-2003.html">What=20
+      is Ruby? (LL57, 7th Oct 2003) =
+</A><BR></DIV></DIV></DIV></DIV></DIV></TD></TR>
+  <TR>
+    <TD class=3Dgeneraltext colSpan=3D2>
+      <HR>
+
+      <CENTER><A=20
+      =
+href=3D"http://www.wellho.net/resources/privacy.html#copyright">=A9</A> =
+WELL=20
+      HOUSE CONSULTANTS LTD., 2010: Well House Manor =95 48 Spa Road =95 =
+Melksham,=20
+      Wiltshire =95 United Kingdom =95 SN12 7NY<BR>PH: +44 (0)1225 =
+708225 =95 FAX: +44=20
+      (0)1225 899360 =95 EMAIL: <SPAN=20
+      style=3D"FONT-STYLE: italic; FONT-FAMILY: 'Times'; CURSOR: =
+default"><A=20
+      href=3D"mailto:info@wellho.net">info@wellho.net</A></SPAN> =95 =
+WEB: <SPAN=20
+      style=3D"FONT-STYLE: italic; FONT-FAMILY: 'Times'; CURSOR: =
+default"><A=20
+      href=3D"http://www.wellho.net/">http://www.wellho.net/</A></SPAN> =
+=95 SKYPE:=20
+      <SPAN style=3D"FONT-STYLE: italic; FONT-FAMILY: 'Times'; CURSOR: =
+default"><A=20
+      =
+href=3D"callto://wellholisa/">wellho</A></SPAN></CENTER></TD></TR></TBODY=
+></TABLE></BODY></HTML>
+
+------=_NextPart_000_005C_01CB4D8B.46CE9E10
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.wellho.net/bing/images/WHClogoBW.jpg
+
+/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAUAAA/+4AJkFkb2JlAGTAAAAAAQMA
+FQQDBgoNAAAKWgAAHR8AACauAAAwNv/bAIQAAgICAgICAgICAgMCAgIDBAMCAgMEBQQEBAQEBQYF
+BQUFBQUGBgcHCAcHBgkJCgoJCQwMDAwMDAwMDAwMDAwMDAEDAwMFBAUJBgYJDQsJCw0PDg4ODg8P
+DAwMDAwPDwwMDAwMDA8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8IAEQgAXgEsAwERAAIR
+AQMRAf/EAOgAAQACAwEBAQEAAAAAAAAAAAgHCQAFBgQCAwEBAQAAAAAAAAAAAAAAAAAAAAAQAAEE
+AgIAAwgCAQUAAAAAAAYDBAUHAAIBNhMUNRAREjQVFhc3IDOAQCEjJCURAAEDAgIEBwoICQkIAwAA
+AAIBAwQRBQASECETBjFBUWFxIhSBkaGxMnKys3QVwUJSIzNzw3XRgpLCU5S0NgcgYqJjg5PTJBZA
+8OHSQzRUNdQlRRIBAAAAAAAAAAAAAAAAAAAAgBMBAQACAQMDBAIDAQEAAAAAAREAITEQQVFhcYEg
+8JGhMLGAwfHRQP/aAAwDAQACEQMRAAABBwlzdA/LZiqETxawYYa0oTFYcSRSXvGFS4bx+FfpcmTW
+YYYYYYYYYYYYYYYUjncn0H4sEK+xqHMECk2FmhRYKw4kikveMKlw3j8K/S1wDhHgpSVAYjSBaM0G
+ZywwxgFXBwItyw8qEOWNcRuKULQkg2jcBGWXFaIrDiSKS94wqXDWSuRMJ8MA1wUCoCuWCFfZOxBo
+7AnC6AMOAD5buEUOZqDbHSkVC2CSb81JYOV3isOJIpL3jCpcNR15x4gw+DyAaI8OBYIV9jdBQS+W
+OhhA2dCacszI7AWfwWYVTxjwAeWXByFkVWCsOJIpL3jCpcOBYEV7CDD4PIBokQ3FghX2WQHLBpIs
+GADEteCENUjwrMPUWalYBha8VQi3CQWdlYgrDiSKS94wqXDgWBFewrgoieDIM4FwpgsicDKLsI49
+QCi6CSXCm6ACegsQK/jgS3ADQfzrCzIq3JOOiIlLLDUg4ItE0G8cRXkeIVxKxXwS6c4LMgAOgqBu
+gJI5E8LMPxUgdaMAHR6DozfnBHFiXDOdgTYFUboIibTwnIklndEGHEiyCOSOdwfREorAtGiLXxDm
+GGAXK/SxUg8Iw1gUkzHekKG5I4GySKVrjdBETaYcuTIbw2oJSciIhckIEpkJCDD6K8XBKJhhgFAA
+FxJAhW6NYFJMh35CYoT9QaCCDWN0ERNp7TnSfDWEPEPk3kTC4IQJyIELaitkNhayJk/E+j0g0K2B
+SkfkHCkDOTUdaQmb44ASxBxwgqwqE2ntOfJhINJnCeTeRMLghAnQOgjiJThxXi0IlNWLU54qUNEW
+fAeIQF+cgbsiYnQPBww9ATm8NMSyew6gORMZFJ4iWyNhMERilAqLYGxhaAfge8jQQB//2gAIAQEA
+AQUCdJct3VPq/AYXQ58Ulys3nwgKqnKytPt/GL/a8+UynO3WZ3eJ9V9ltd0T/su35bK66V/oC9v5
+Upq9bwja0HPmDXAh/wCBVmUz4LZ2T2tOyjj7jIPEHLVIoldN+1lIbKc7dZnd4n1X2W13RP8Asu35
+bBueZjdaTdkFUyskSkKG4dbUgg6tshmITj8gGWEs/MtK1/IBlkUeOIiu5M+LZVRAmI2uwHaT5y/J
+yJmLxMzY5ZMKoExE23CrYe+by0W/lzYEU8IwMHHminB554NZ5C77s64yFjWKlQ5Uj3dcPynO3WZ3
+eJ9V9ltd04593JKZy5XphU724A8sGNYtAjDd1u8D8Lv1Hkzvt9ia+74rThkXLVlCzqTy8HW/x5Zk
+YxaCmfWlvxnc7bwiceW8vPySvjyMjGcsWUe6+ASzhv4NPYm8lOGngrZT2u2sBlOduszu8T6r7La7
+px/vkpATMLxhX1XLJ6HhR0fC79R4zFnJLVyiaiKgydT4vyI2FDFWXf6jjh3KvEvBWz4dvw3eLf8A
+5NNudNtuedubAivJDGq++qGTLfy1M4AO1Y+svy8X5X5TKlMNlOduszu8T6r7La7ol/bd/wArhX1X
+LJ6HhVx7gjC79R4FlkSKgxKSVgVcFwXJCLhq5XZuLgc+c3wsn5AaCfy8X59ySX45utv8Y/iKWy61
+ux2v2d7CSDVdVjg+bRMZX+VVFrMQ7Kc7dZnd4n1X2W13RL+27/lcKGCild4YF0ZOC2uu221kRS0U
+KYQl8VJAOSTNRWreOfh5sc2hyiM002U3tuDXRg8MziLnBLTTZTb7dcfj02HViiBkqy+kYOBcbvMF
+MLyQwD2onsakmGxWyrVVus3MK6GnD5GtZd0vCBgozkONEFWMjWusTtXUTEQU+Y1k/mZtlXaLZ5zJ
+xurX7jH8Og1KeIWtXbuHFiwbcp1bVG8ebRgy2aiE4FwLRzGVxKS+41XUGIOCjUTKoqZr51COY+qW
+spBOajeM9haJhWgvM0q51UXDVGi1fhYqi9esmsi0mqUX8XWnC7nYNqxmPOcsgmcDI/vu4eOCEdkR
+h9Vxw54bT8/IkciuNybcfDS18LSloc8bGwxGy8vKOmyrN0Ml8lDhGuq7xwRDciLvhMifuRfJH9L4
+fetAj3WNJiGT0mZuvituJyVqlb6Qm4cYlZ1k3cuGa51OKkQWl8fiFkJNwkpV8o4jy+yyNMhn4CS1
+hpmxDl1LQsBAPySScoOYt9WRC8IRv+F4c8+QZfO2KAzpRNa18SDDLJv9OYfc/ESVB3Em7HFNVXI0
+gtu3W84G2S8fV5FCcBkj+l8PvWq7bouy4uZto8mqeEipyXI60L5GeglkgCDyQ555r9jx73t2evgH
+crei4+MnhFo3fE1vwiUU6FSJYXmo8XAzp6KCjIRZfwvD5Jl86Tm8OJKztkQBHA5N/pzDzsVQdxJu
+x02oz0VKq2iVN3bN0wcDZa/2gckf0vh961WPdzruFJeuWOeTK8wKiqpL7H/QGHz12evgHcrt9dBu
+3kDWAkmZHXKzHfTdRFSrip2Rw/O+nGvC6G3OqyW/OXUzUWgG6nCS9rkUVPvgiIcyu2Sc9GOKwboK
+ul7JS8AvqDuJN2OJb7LjDBbVs+tiahpuWgGyjlbHs/Fq1Zh961WPdzvj3GFOyDFhOGPHuKq9IImJ
+g8f9AYfPXZ6+Adyu3j/3A9ygzKLm2Rdu61lWEOVlrtm+JaeQ34iYBi0kg6AHoRFNUdiI8G8b/qz/
+ANI5hpaGFtFmcRDqq18iKN4csiQNeQ4jGPO1cxwKzlrDiodyXVhGRLUon4aCUna5YDjNvMwwb4yM
+VHb718zA2bGViB1N0jDB/wBL+hj2GcTDLStfxUO3LbEjAl5PfQx7D6MFVpGEiRXlx9DHseRMNyFs
+4SA4eWzHRjyaDIiFQKbQZiL1PaCGPe2YhetcvoeCSUYQ8EqqKJDSYoLIEqLGJQbaNfIyWwz4U19W
+/9oACAECAAEFAv8AMj//2gAIAQMAAQUC/wAyP//aAAgBAgIGPwJkf//aAAgBAwIGPwJkf//aAAgB
+AQEGPwKSwupWHTbVPNWmBD9NDeHvZS+DEKNxRYI98zJdER4l1Qu05ugDIsOulrJ0lMl6VrgXaf8A
+aw3nK9NA/O/kSvqj9HQXsD3pBi++ez6kMWz2tn000zfqI/q0wHnJjdrpkeJvRYPqS9YX+w7wMcQz
+31ToI1L4cWfXTa7Zte60WLtyMbJlPxWx0bzFWhRe1in9o0NPCujeO6STRqPBhDtnV4BFSU1X+hh1
+qzPFaLai0a2f05pykfF0Jja+/J+0+X2lyvpYbG5PlebfX51t76VE5Qc4a9OPeMJzaxZcYnGT5lHQ
+XsD3pBi++ez6kMWz2tn000zfqI/q0wHnJjdrpkeJvRabtNqrbLCo20PlOOK4WUE6cGSXFy2xl+ji
+Q12aInOSdZe/jaM3yeB8qSHPw4Zg7zOJLhOqgJcaIjjVeM6aiHw4sJWe4uQkldo2ytU6+XZ5fHj9
+4JX9H8GLDd41wdZuUlIm3ljTMWdtVKvTj94JX9H8GIt9ujpXO6SZDzEUXF8s85UzU4hRMEb15fjg
+XBHilsQTmoFPDjOxfZ7Ze0OeKuI1m3jMXxlkjUW5UQSRxdQi5TUqLy4fuktNpl6keOmpXXC4BTBl
+7zct8dV6kSGuyFE85OsvdXG0Zvs8C5e0OfhxHtm8xi+w+SNtXSiCbZLwbSmpU59F25JGxeT8Zofh
+TG7xcFZgD+X1fhxvA9woU95E/FJR+DRvqzXWsmMn96oj+bo3tkBqW4TYsPNzD1y8C6L3KOK0Unau
+OJIUEzooEFKFw6LrENa9gedRvmFxvN466C9ge9IMX3z2fUhi2e1s+mmmb9RH9WmEXkxDC6JHRIOf
+Y7EFDy6VrrXk0bgQEXquBJfMecDyj6S6NyXo8Vtl1W2kJ0RRCLOwhlVeOq69H8O33SUj7LIbUl/q
+9mHwaN2uiD6otG5bfxFkXIl6UcHA5vJr1sbryd3rZt2DZcRHILOZNnRtQrkTvYiO+55ybN5sq9nc
+4iTmxYINfmqPvknKXVFPh0bmux4zbLoti0TgAgqSKyK9anDrTR74z/5n3N9J/WZMle/iJIpqlQA1
+84GafgxZH1WiMz45KvQ4OJ7y8L0h01/GJVxZJS//AKsUn/yXnG/EKY3kifp5cAu9ttBO0p2q77Sv
+LRcn5ugobMqSkFzy4oGeyXpFNWPoj7y43mzCo/OJw/VLoL2B70gxffPZ9SGLZ7Wz6aaZv1Ef1aYo
+nCuGSutuegJIrsFdSmbLw07+j+H3scv1yaNyPMj/ALNo/h59XP8AXJo3a6IPqi0WtbeO0uFslSXm
+Gf0gqaoYJz8eDadAmnW1yuNmlCRU4lRcI3DkdogVqduf6zfPl4x7mEjDWBdaVKA6vlcqtl8bx4sP
+szvppoaZlSZUpln6Bt0zMR1U6qLwY+iPvLjLlXN7s8n+0xu9L+UMhkl6MhJ48CYrQgWorzphSXhJ
+arjcB2lFGCrTvSQg541XDsdPIeIDL8TNT0tFmClM7jTq/wBo4Z/DouM+Pl7RD7a8ypJVMwDVKpjy
+of8Acf8AHF9fuitKcVcjWyDJqVtV0F7A96QYvvns+pDFs9rZ9NNM36iP6tMN+cmN2/PkeJvR/D72
+OX65NG5HmR/2bR/Dz6ud60dG7XRB9UWiyuXVXUGZIlizsgz+Q5rr38KUpuZHuC6m7iwxlc5s2uhJ
+04aGUQSYUqvY5repCpxKPxV14YlxnFakRjRxlweFCFapjdSXwdqt6vU8/KWizXG2bJJBdkZXaBnT
+KTKquruY8qH/AHH/ABx/qWrXvPsW3rk6mbPTycW2T/485BX+0bL/AJdDTI+U8YgPSS0xDIE/9XJZ
+pzCoq38KaW7dHDO/Ct8V1sE4V2AiRU7ldF43ff2nvOR2gIraDUSR8aZs3FTRPmPhkW6m48yi/ohD
+KK91a6C9ge9IMX3z2fUhi2e1s+mmmb9RH9WmG/OTG7fnyPE3o3GuQBUIu3YeLk2pqo+ho3VtMTad
+strYduQhogq20jepeOuEEUUiJaCKcKrjcWI6NHITTjUjmcIQJU79dG7278cnPeUEme1tqNBFGQIP
+K4610btzASoQ7jJF3mR0iovfHCLyLXFljW3aq8wSvS84ZciqFMvPgWwHMZqggKcarjdiYIqo2tpI
+UqnxagOVe+K6LDZoW0WYxsTnoQ5RBWWlCiLx1VcCACpma5QBNaqq8WP9OUTtvurZZf67Lmp+Vh21
+R3m47xOtuNuu1ypkXXwc2KXPe2zwjXWjbpmh/k0ri2PBvjZ5SRpTTpxRMhM0AkJRFDRK1xcbQBi0
+5LBNk4fkiQkhIq06Mbe4byWuEz+leIgTwpgQ/wBc2Xh11JxE76jTDRxXm34+WjbjZIQqiciph9+2
+7wQbFONc0i2SXARupa6olcwV6Fx2eHd7LMcWqoLM0SWiceVErgE3o3utzitF1rbFdqKryOPakT/f
+XjZQ1b7ObOSMrdNnly0GlOLGS5b32eG5+hcMs/5NK47cu91pmZ45sDHBxQNVJRXVtEHkxdL+l3gw
+oUjIdX1JMgg2I1JaU4sRJJb52IhjvA4QpI+SVcDOK4RhhGtAmK6GyVeDUdaY/wDe2/8AWWv+bD1z
+Tee0QBfZZyR5L2U6IGpeheLDTUbe2yyX1WoMtPZyWmvUiYtkVm/223vWw3e0BJeRFqaDqonm4IIm
+81plGKVIWTI1RPxUwxu1e1alx2mCblmmoKZlLMirSlOXDg2rfW1vN16rMg1zjzKbSGK+DGW33izS
+6eVspedUTzUHN4MR7rvFdoz84VrCF0hZYA04xzr11T/dMOWqVfoLakSHFkDIaUm3U4FRM3cx2ebf
+7O1XyNpIUDy8qt5VJMbS2X+Fcbk4+O0ltkpMNNohVBMuvMq04UwIS95rTFMkqIPGQKqcvWTDe6dy
+uluu23J0XGmXhVD2h5kQUrWqYcdsV0bJjhGNMqJDzZxRUXvJjYy947GwSLQv83np0oAEuGbg5vDD
+v1zjrnjQ2CRAbLiLKXWJU6MPwZrIyIskcjzJcCpg3LBc2yZXWMWZVCHm2gote9ihFBAflq8vwBhu
+53OQNzuLOuMIjRlovlJXWS8+jawSyT57vZ4rnyNSqR9xEwpuuHIkyD6zhrmIiLlVcDb7mjaPm0Lw
+q0WYcpVTh1caYulru75SWbXDcnQ3TWpo2ynXbrx82HrhcXlMjVdizXqNBxACYh7yuCHu2a8rDNC6
++ZM2tR5OquGHW3iK2umiXGFXqEC8JInyk4lxdiHWhDHVF6WAx7tsjqMS5jLgG4RZE2VOvUkRV1pq
+xIhvplfiuky8n84FouN5I0d8hdZfjt25z9D2nPtMvJqDVz4EKq9JlOIKKS1UjNeVcBb7ns9u4yL4
+q0WYcpVThonGmN793pTyvxWLS7JhKetW8qiJAnMubRaPa/tndET7qt/7OGIdxMFdCAzKkE2PCqNx
+3ComLndWmlZbnvk6LRa1SvLiVJkRHJaTWUYAW1RKLnRa68SrCy8TVrtpI2bIrTau0qRHy04Exd58
+AAJiytbWXmKiqlFWgcq0FcNSYrxx5DJZmnm1ykKpyKmNzrnIp2o3ZDcpU43G6Cq92lcN7P6TMmTp
+4sZL+4j8+e2ko30PPmzqqa11a6pi3MtuEke5KUeU1xEiiqjVOYsKjcUo3unaQTzFmzq26XWxbbqb
+SvjAfF5WUWill4q4sLUFHLfGvLLkmazm6yiLitCCklNXVVcN2u2oHaDEjUnFygIjwqq68PxXF2Mu
+A8TZqC+Sba01KnOmEduB7WXBeKK5IXhcQUEhJeehfybAPEr7y/0RxE+ub9JMR59sWNsGogsltnFF
+cyGa8GVeXF6us0ovZktslp3ZOqRfODTgypo3b9s/Of0OqvCsOAq/qjWA9jf+DF/+8ZPrSxvQbQ5u
+yHBedT+ZmcFV7mbDMhpaOMGLja84rVMRJF9uMiwXltgY3Z0IEYcoqrUDMV4VLgXG89ygzZUlx61P
+MKLyhlyllKvVFPk6LR7X9s7oifdVv/ZxxbIkltHY8kZDT7S8BATBoqYvcKG0jEWNKMGGU4BFOLXi
+4tXWGMxuPFRxkSVUoW0FK6lTF4nxoTRx5kx11g1fbSoESqmpVxvXb7++wNyujSNwoEd0X3FXZuD1
+8irk8rj0bup8m6TUT8ltcQ05X2/STFq+7/tTxu97UniXEPsEUI3bYxSJWT47hOlUlxZIctpH40iW
+APslwEK8WLCsCMka2DEOOw2FcokLimqd3PiPdmmkkI2hA+wq0ztnwpXEu4xr7NYuE905Ei1mrQOA
+RrmVBRRWqdCriRBgyHpDch7bkT+WtcqD8VE5P5O7/wBe/wCiGIn1zfpJiI1cwkmUwSJrYAhagoi1
+qQ8uL5aoDcwZL0F0hV1sRHqJmXWhro3b9s/Of0OexQP2RrDfsb/wYv8A94yfWljeTt5shFdYYbc2
+6igFmU+qubVrwcvdS8Q1I1r7mckN8K8TR5vAvfw5Emx3IsllaOsOJlJMbw7szXykQ3bZIO351qTR
+tjmyIvyVSui0e1/bO6In3Vb/ANnHFk6XvUnjeL21zF39hT1g4uFkgSig22CasGjK5TdIfLUiTXSu
+qmLvJN7Yw7PFORKcTWRFlJQBOnLr0bv/AHrN9BvEL69v0kxavu/7U8bve1J4lxafYPtSxu77a348
+Ha785GRl9Mwg84LZIqcBgqqioqYce3euDO8EREU+zsmBSgFOVsV61OUe9gTbImnWlqJiuUhVMSWb
+k5tZ1qMQOSvC42adUi59S4zqSIHy66sUF4FXkQkxQHRNeRFRdFumAlRhTKO8yOiqV76YYdXWjTgk
+qdC1xZitMoZbUeKSumNdSuLXKtePVjeNWG1JI1mla0+WY0Ae7osVlCSK3ONNVXoieUIirq5l/KTD
+MZgVN6QYttAnGRLRExcGK12DMRuvmx20w37G/wDBi/8A3jJ9aWN7DFK9lKA6XRtDD87EKQfkR323
+C6BJFxbHrRKbmo1EyyH2+DWSqI15sXFW0r2a2THnKfJRlU+HRa7KMoFujUz5yH8dBQ3CzLza00RP
+uq3/ALOOLJ0vepPG8Nf/ADDxcu3S2YaPQsrRPGgIqoYrSpY3h5576p0KaqmN8otwlDGemRf8oJcL
+i7Nwco89VTRu/wDes30G8Qvr2/STFq+7/tTxu97UniXFoXlg/aFixSZTosR2ZjZOvHqEUrwquLBc
+oj7cqG/HdaCQ0SGCk2etMyavjYiyrlIGLGVl5tZB+SKkOquL1Mt5IcORKM2TFKIX85Olcb3SafNm
+2DYrziDir6WLFDnxwlRXrbF2rDiVFaAKp4cb4TGrWw3KttynNQX0HrNAjA0EfylxC3itsNu33q3W
+2PcGrgz1TJwAEyQ/lIetFrjtGX/pbTJ3K0xcEvygNpVpe2qdaZe5rrXgprrgysu97D8ZV6jUqNLb
+cFOSosEi+DCJN3rhRGfjGDEx0u4OwHx4cZ3WmdvbBz/7CWQkDpu04SExFUTk4vDiW/ZN6WoThOHt
+7e7Gkkyh117NxtotVelORcUXeO3iPy8k3/42Ix/6hC8X869ha2DzLQLTXl2oJUuTwJi6PS96Ituf
+LY5ojkeUZD80HCTbRDr6cA7D3kjXR7szydlbjyWypq11dbEfDi8uO74RI7hzpBOMLFmKoKri1FVF
+lU1c2N6VkX2Jd7acMPeQoy+0INdbWu1APBrw45Yd8GyYLWEWZFloQ82cWVr3sIj280BhvjPZTS8C
+RsXhuDdxvEoohLepLrTjNI1OugCYp1eXh8WHPc+9UaRCJatdoYltuCnItGFRcHtt8GPe7jgZKRZm
+xbbTyk+hqSr0Y/fWF+qTv8DEYpG9UWGaW6EKNHGlkqijAohdRpU63Di0vRd6YtwfBXckQI0oCP5o
+uAnGhHw4lurvMlnvKZUuMUoz7zallSi5mw1LSleHH77Qv1Sd/g4V6NvKzEu4ssjcYbrElWyJGxoY
+m20VKjSqY2l93ojhHBFyx47EwiMqaqlsEolcfvrC/VJ3+BiyMFvVFCOFxlk3N7NLymSi3UUHZZtX
+OmIqjvnDMkeDKHZJuvrcH0OLcc7eCPaTGFQGXWJDqkm0PrVZbNMWR2PvXFmvBJRW4oRpYka0XUim
+0g99cW9u/wB3WzXFENbdJFlx+o6syGLYrqr0YXLvzFUeJVgzU+zxAiX29A9b1kvdguzLTwmjymXk
+AoZ9XH1aYX3fvdDmM16quxpjR91NgSeHCe8d7okNivWVqNMdOnMmwFPDg2d2pSP2wQeF6YolnV3L
+1ycFUQq9zg4MWQVuFql2IIrSNONMvg+bOz+bXrlRF4OFMb5IE4XhfuUwpJIBpsCVoKgtU62Xmxbg
+vl9ghugxHiq+7Div7Z+OOTZiWZVyoWrN1e9ja9rie4cn/abMtvXL8utKV5sf/9oACAEBAwE/ITC9
+ABX/AExrGnzBmDs33V+g6FRgPogvw41dGO6y/vNyE9KP/v8A0fa/L+Dqjz6Psnn/AOSnfnH6DR+s
+djH6D/sz0u/mL9r0Auw07IulXfauzF7GVyvcAOhvLedM8vOV7vuURMgOHv8AkB4sfTnHQz31UaTs
+jpOzr+Dqjz6PsnnrTTWP9B6e6/BXti20avayJfN+Bm7FV3fvd8Sf8W6hKeRqOa8ZQzZEDaaPFz3z
+/rYs5B850E2Ln/WxgEQ0lsAS0z2747+NgfwRPyX1wyIN0g+6Y4IqB6uhCOoBHmmxS1R/aru3Cr2B
+cQyVY7UP2pxmyJ1CX3FjjLdxkJMCXTAnLTjK3gvgl/Zm1+T/ACwAdod8CfroiEFT0e/S6NfqdzqD
+2Y9KqTcl+pECc93z0V6Rr2aT8/z/AAdUefQxvLE+Maa6vNDsvx6OxO0ZoPjoFbqWkxFh5d+jZGqV
+bFX2+jYCD9Z2fpc89h8LvLUwgfcT627euG5prEFlzPo90Rnwft0dfuKm0DuN916f2zt8/wCefvki
+hl8mP6wXpIHCn9YmzJXr/tMsJt/fEG/pCPO5/rpzNH6DpbrIZhWLVfB2z7C/1g4wwAn5P4OqPPoC
+gKkDF9mYJRPsj6OH3Lx+rLY2cf8AjXrqoDzJ3xw4UmrMBEw3HJLby2q+v3HNDFJHUujAeIeib65R
+02RD0UpprWfYX+s9iDRt9GRKPohv/YZH8viJTFNrE9XNTZpzb/Y4SR/Z0IKl93bX46JSh9KuZSmf
+8fngHU9cUrd/wdUefR9n8/S34fcvHpDvn/KfRY7/AP0YjyE4YZMAqLwPwIeyYmFfHGqtiDWzwuIy
+z6VAfJmqTSHBer89Iqsku7AN05/x+ftQG78T1xTv6V/sjp+o+ID+8gGA4Oy/teoyI7FQKPKY6aAe
+piRXCq0fi9F8aii6d9BnpH+Dqjz6Ps/nq3V4cM42XpUe6dNJIFDxE71ddud4C8wFRoAPOfe7E/Y/
+Do2KInVbsoEnzOjZXedoJ6QPnGH5IfGOENTEia8quzWucTVvxKIAeriDXvY2tO0Xunnpu5ytMWa3
+ZO3O9YF44NBAByrn+oD/AOZuDmLhbCpXaTFYZKRHk3/xlinOL4LRMKbPd3PxLlSS62/4E65u6zwd
+d6/7YmZAcxNlHJuo5faLsWQ8AYMEyc9rwP4whxrA7zAF5DfoyZbf4H4HBxO2JiUqH+N/rkJwIowg
+D7cvnFqwdFOduAghjUJh+Mn9JBUxsWic9EEvbQxhH5V3MunmTl0asC5rgytxKFE5XNrLXUSokMZx
+PyyPTKxOxLhD047ZzGHmezO7sJu+K4T1xyQCgA1TyhZOdo5R1xKUc25Udx7c4uo1uq4lj4T1y19M
+im4WhKWiAcu0trKJAClyKOARaYbhE2OzHI9ZKezTy4MpLNvyhE9TCUoEg3W74UBzLHH1vFq/6TkT
+Y7MCsFG2nAX5n5wnbiok8xHErlaeKNT2Unix6KiCNLuWHSwHqj2zakUa6VVVfOX/AJeJw4bCjr9Z
+sSVMOu2ARvjZxA2JepQ+AAPzy7yoD9QqNLSSN9vbHyTxKk4AHYezpcSQGfhEj+MLNr6O0gAFQ3Zw
+4SsKWg8x9zKU42ryy8FfBXCdpgBgqcq8uFXYOZuRsFHWLE9xrQPiIdprnp+q6gBI4DA4EdVmJgy4
+H2o1i+U57VvHWLJccCEDg2Dol5cMlgrZGRgjt+cIOJ7wJ2DAAi8gE87ao9cQY0Ry8+x9cuTBbcFT
+Qon41gT0O7xeCkI+/lyEBoDgFAg+MG22oisIZhvk7e10TWHfV4y2C1wNCF4NHLj2dv8Aqt8bQmIY
+/ryRCF7y9/pFVux6kv76WC+N3Dzpoh74Hnros4eR69P0PTT9iYcPunjpyLOmfaCc9QvplOGhuGSe
+5i23Zna/lRtHsXnGpF2UoK7p36fquoBv4cSiuR2OIDAlUNBS4J/q1rDxHFdk7Ey0muzi4wDR0RAI
+2z0vRVce1f8AYcJbgDh+s6I5xR2F3Tl25T3bFDakzuSQAf6zl9d5qXkUiFtHuPkxPRYwcSpefUYk
+DayLiI5Pr9LDBz8MTgJiec3x3CPB46foevg+4eOnIWzSZhvIR2zuP5iTTu7t/wCbLe2TT6j+sT2E
+7oCtw6dk1y9P1X0AET9w89KSf/t6N5MAGTm5cHvuHt1uqeA8p9DX9+s+hHM/buRmkHkAB7cUxF/j
+feVKfAvowMvVCLSJERzuwuRB9JkveDzc0GwaGjw3jDDfwg/3mra2snw9NoXM7KL0gfJgNojcoS/r
+CwoWJ4gNDc7YpDtDn5jYw9HpeHyXYsSJL39HNp1LkonuufuABvf1n3Dx05EpS43LT8ZNqh/q3+sc
+KIF2VEGwrO1xZJ8MVf5PRi6Z3SWko/N7/QBEsMRv8MTNupjfQIFm5jV999lQPRG5ZP8As7Ng3gvX
+3+hr+/WdEc3hqHx/7Y10NPIlwHdwQCOgaSumNQRyOSfYUlyXqJiXYM1RxJxJnO+vQGdyqyl8egHJ
+YoNhCewfsyh1lWGg9gaG5fLuLEEFa5pEl4HoE3l16vPwSPzPZlBF4Wd9E/IwyBhwQEQHGd0rWQL5
+Bta4vgB6BMO3DdRPM3wsQjfupjlaU9zCEDpukUiC67vOA/FmiK42+WMIsNkoArVSeMN0qZJtbr23
+r1mCSw0CPA+fUZbpOch6bH5wM7Se6rfbVxezGJ8gtuNLPIl8GRNEUTHZLU3AF5t6FK5+0IrhDQtO
+4ObfQTYLAIN32ecWaAf/AGKO1H2DcbsQ7XLHgmV7mrYB3zGmMFkXFJYe+lZrXPQoyCwJFkRZ2gN0
+4y+UBUCUk364RxltUgAVkW6ziv2F0HvgM2Ef5D4aKVVs7mCLvIB9wf8AeUeXGE1/RSqHw5vHDQbt
+DEnNBa3dT8rAzwFdJrORkcOEwwimxAFFGzHvocidhumKSgVbG6x5RbYOFHOipbFz2RfRO+/fRn//
+2gAIAQIDAT8h/wAyP//aAAgBAwMBPyH/ADI//9oADAMBAAIRAxEAABCQASACCSACQAAAAAAAACQC
+CASCSACQSCCSQAQQQACCCCCSAAAQAAQACQAQCAAACCSACAQQAQCAAQAQCCAACSACAQQQQASAQSAQ
+CCACSACAAAQQSQASQCSASQQQSAASQACASQCCCQCCQAQACQASCSQAQAACAQCAAAQCSSCCSQCAACAA
+QAQSQQCQQCQSQAACCAAAQQSAACCQCQSQSCASASQCQCAQQCSCQQCCCCT/2gAIAQEDAT8QdOqRFPE9
+HB5jzuocQQRUeC59benPjqcW/hOPF5WCwfdxZCtBqar6gfyWWHOgg+6+P/yMNIXm0Cdg/Zxi8nFl
+Ej5DIc7KNN+PzvXo6dThZk6B5/dVgScXoby5oUXAoNYXsKmGzV+QvfCf67MQRADYvE5QHBclbe9n
+LtgrZ/Aw50EH3Xx6sFhCkONVchXQrpYEZ6zZp4ztJeA0avcaFDdFOXczQcGI+QpS0hdGghJI8JF4
+NJ6OjtjiDU5dEoHHToE6Rh+tiNBWBRCNJatd4AM7PnlhnVWjHglrYjihl+KAu4hYBuOEm10iqgQJ
+DOkKA2a4XNVYPHateDhmgrg8hvzYo4SYXkNYvAPkWxSW65uKEAMPUPzg71S+hR+dMYntIM5+AOkY
+k0eRQ9+iV48DyEXyq9+gIs4kaWBQCJ5FxUw+UEvEX/AGHOggivuviqlxnp2wbPMkpJvoNO9cpZ6g
+/npExfaFeSop5Pfp3eADv4VR5+jafyPkY1d41+VjKhGY0suz0xsfM+XmkKndx3wKdCYKmYCc3K1A
+SWUMcOoe7z0VHLBd1ieedjlbnd/N/a/87DROC/3dJYdhxGCxX2ONV6jCbB7CEWgGngXT1zlT8MGD
+8l6VIjM7EC+yjpdbyJuyoqN7DpUZ7kmp24P4GHOggXwQPlVgGH3ssVaBamnv/EOvkdo/ZAFzCIhV
+27+E16h0iyQiJTKris5dSDmqAu8m1apdMACgrAKsuqJGlxmhBcEEGtcdKn/BYrpc05uwaN9814Ff
+yAnwmdloDVVX8uMe5/lKj8r3XGHm/WpBOk+EsaIJ8hToexRkK6kR0pTpqU2+QcPro0/wMOdBB9w8
+fr/Dr6qhXX8G/p+halq6Vsva0l5w0SzCaGxXlIa5ubpYaCW+sBSl4zFevkDljwGcgxtugNnR6+it
+JtgPCjom+fPTV+OtfiX0e7eEXXSOLLe3QGtQn7AcdpV5l4Pb9KdZZNqvYbS4Crrl6Hs6dx9cmZFA
+5NYZK0oUxAh5Ig0/wMOdBB9w8ev5zA6mgWGlaew79AoSvzQ6RC3AaKYi9DzEpiqYBhlJGO59s0Pn
+fQiqCOMKddtauwjgEchonPt8hGGVQB7qv+sB8syo6m0ayNrox2go8c2qAGF5IcQWBBVeIOzordO3
+CQaBbJ4LCV8VjxsqAAcufhYj17Z7z1x1NlKibGAh3zS8Ckd2oPkzGu8GzFVKa3gZDLYRhZFYOJUz
+ZXlDfQN40YAaECBnTji+cHE7awYiJNOAYUXzsgoPfPFGGs9ilEiBtRzvnMi7JMXkQ4uMATIooq23
+J2ezNTOwZBvaiZhf7rsRwERK9sgZpBBrdC4MTNjceX0EKklcMFJWgjDoYVRO2ICohy5TFC2YtCiB
+IxBwYSoi06jChwXNeERSssagnJlQw6nAeaIVJcJ2YPik4ZBicYfE0dSHyMimITUJpEjcrsYl4YM8
+QVWCDXQADcdUARClmVAqCNHjEUSnA8ngLAJjtzkYDzdpOGxGeJWjIJQlwUw5yCC+QIESg4a7VLek
+cj2Ld5wxBio/Jj3AOBy6vWoCyVS8oDwJ+/J0igEAAgg4ec42tBsA6W62reT6CF65CGeJgaGBCcXO
+x08yYYcC2jJLnZjocEhNwZNkhEgNrHrBVjATRN3GqhUdjAINrAlSS2BvjbI8WeHChXtUuUS3PoJE
+aS27AKTQazCuVWSBpZJjnWdo2k5FCY1FECXuwcJHdMjoBNRhyDx75pqC00NeBXLJbjW4miO7kep3
+25LBFJviMCPI0ojla2Q0ky7K6a0roQmHN8vTARA8eWvXeAXJAwXWLZx3OIWJO8yp6irEdGJhlYeo
+mtWx80JwQJHdcoZmi6EFQLFHQUVQIe+RPDmciaikaGDRiaHRhIMbB4adYm5PE/20QCEKYxsQRe8w
+ECKEDKITnnrzn80qnnNJk3oMCnyjg0nvHt6B+BWRsqSNOTCoVUNd8X1RUTlh2FB5xNv21avvI7ap
+tfSQI8uxV8D6Wh54unhiuie66y6o/hRI0WW8L07PVr0lnqh5RevAueqIqCiOyq7U4NAY0KMuYDMH
+4PtnhQEcG0aB9dX8lMAHSLr6b9tnQYhXxgOGI4eR9GCwYeq4OTX0wWi0NqemC8RAxIHWaKcY5AbN
+xVJVqlhEcc0YMd258uWb1NpiT1qKW/qEddBNe5DOLc6DdpR7xwsLEIJt00632Ma3t4QdkcJkAolM
+po+hwZ3QMDkOdktU1a9F2LV39cK1SUJOiNSiQcKuguljQrzy19DYoCRLj1cBckhOpZLAoVyXWJb8
+LglOtMT6HHD7Bk++GMTaNJsUxobxqEi0wahJD6i/bVfePDpbH7tpwgxEjIUp1LzSiIiWlOUufqHD
+B0U/uuitsxk1YlAUPXVSD7lKCKCZ35BLeV4tQrJxzSIjgpGeBx3tTs8jZNczCGpsujSNygBbsgrA
+ToLjIGoceURnRvMAquo7fL8J8wZgwXumBI+xNfIDJcmO9C4GGIICc+dnodLsmGmW4FyFrB2CcvjF
+yHKIMI2P2t5364C8SNN5HdMEK5GMBC0xht0smpChLC6wegY0HNUoWxKdpPnpSESHw/FCN2wbAdba
+pvLBH1R8iOOFRN1zvNFVB8YhDQYisEURgnI4Lew7EguMJPlwI+nhg6KRM/cz3+mCY9KURkF1TQbd
+YzKO2RGmAg0RxotiquoR5raFLDEsuuLpJRCoW3vimknUFpw5E9TBuYBDqPmE9TD1YsrUOtAPLBiG
+MVRMHBAerM/Nm7veee2GZIJLQGDrN4HXEJZcAqLhw5nhkQiSbRoNSzEygY8i0jMCRsoM/iBAIIAw
+S9iHOwjkVsCntMfx75e6Nck3sXI1RdPWw4NoAYEweBWJNjhJRp2HF9VjMynS0iVJMaeNmH1W1CwB
+JgYKpH6C8DpXrdd4t8afmASvRGKJZqAAdO1MO80IAddFRvyziF7WSKoSFJFDkQaBQywD5SooTxRA
+JhCY9zCNXqfjlRBUGKKli9AiUARTeyBsg0JTtQcwZ/t06m3OQKzIJ1xhC+kLtCKYywPB/wAwE5Qw
+Usjj6O4LICFaqDymboT9BQiJCpMiYUHXCAtKlb6hjlRwU2iVVCbKWEDHXl5Fn5YDcFxzpnV+8MjZ
+DD16zftkF3Eczg2zh+F4ypACzgTvaEjIhpgd4QHtVHYFiuJBNAosUNRzs0FhR2ZR4cKD7ACD9Mej
+65//2gAIAQIDAT8Q/wAyP//aAAgBAwMBPxD/ADI//9k=
+
+------=_NextPart_000_005C_01CB4D8B.46CE9E10
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.wellho.net/bing/C3.css
+
+TABLE {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ffffff; FONT: 9pt/11pt Arial, =
+Helvetica, sans-serif; BORDER-BOTTOM-WIDTH: 0px; LETTER-SPACING: normal; =
+VISIBILITY: visible; COLOR: #000000; VERTICAL-ALIGN: top; =
+TEXT-DECORATION: none
+}
+.generaltext {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ffffff; FONT: 9pt/11pt Arial, =
+Helvetica, sans-serif; BORDER-BOTTOM-WIDTH: 0px; LETTER-SPACING: normal; =
+VISIBILITY: visible; COLOR: #000000; VERTICAL-ALIGN: top; =
+TEXT-DECORATION: none
+}
+.newstext {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #dcdcdc; FONT: 9pt/11pt Arial, =
+Helvetica, sans-serif; BORDER-BOTTOM-WIDTH: 0px; LETTER-SPACING: normal; =
+VISIBILITY: visible; COLOR: #000000; VERTICAL-ALIGN: top; =
+TEXT-DECORATION: none
+}
+.navform {
+	TEXT-ALIGN: left; FONT: 9pt/11pt Arial, Helvetica, sans-serif; =
+BORDER-BOTTOM-WIDTH: 0px; LETTER-SPACING: normal; COLOR: #000000; =
+VERTICAL-ALIGN: top; TEXT-DECORATION: none
+}
+.insethead {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #000000; FONT-VARIANT: normal; =
+FONT-STYLE: normal; MARGIN: 0px; FONT-FAMILY: "Arial Narrow", Arial, =
+Helvetica, sans-serif; HEIGHT: 15px; COLOR: #ffffff; FONT-SIZE: 11px; =
+VERTICAL-ALIGN: middle; OVERFLOW: hidden; FONT-WEIGHT: 200; =
+TEXT-DECORATION: none
+}
+.introtext {
+	TEXT-ALIGN: left; MARGIN: 0px; FONT: italic 12px/13px Arial, Helvetica, =
+sans-serif; COLOR: #000000; TEXT-DECORATION: none
+}
+.introsubheads {
+	TEXT-ALIGN: left; MARGIN: 6px 0px 0px; FONT: 700 11px/16px Arial, =
+Helvetica, sans-serif; VISIBILITY: visible; COLOR: #000000; =
+VERTICAL-ALIGN: top
+}
+.introhead {
+	MARGIN: 0px; FONT: 300 18px/20px "Arial Narrow", Arial, Helvetica, =
+sans-serif; VISIBILITY: visible; COLOR: #bb0000; TEXT-DECORATION: none
+}
+.kicker {
+	TEXT-TRANSFORM: uppercase; MARGIN: 0px; FONT: 600 10px/12px "Arial =
+Narrow", Arial, Helvetica, sans-serif; VISIBILITY: visible; COLOR: =
+#000000; TEXT-DECORATION: none
+}
+.codescript {
+	PADDING-BOTTOM: 12px; FONT-VARIANT: normal; FONT-STYLE: normal; =
+TEXT-INDENT: 0em; MARGIN: 0px; PADDING-LEFT: 12px; FONT-FAMILY: "Courier =
+New", Courier, mono; WHITE-SPACE: pre; COLOR: #0000ff; FONT-SIZE: 12px; =
+FONT-WEIGHT: 700; PADDING-TOP: 12px
+}
+.manor {
+	BACKGROUND-COLOR: #eae6c7
+}
+.hq {
+	BACKGROUND-COLOR: #fcfae6
+}
+.emp {
+	BACKGROUND-COLOR: #eae6c7; COLOR: #bb0000
+}
+.lineodd {
+	BACKGROUND-COLOR: #eae6c7; MARGIN: 0px; VISIBILITY: visible; OVERFLOW: =
+hidden
+}
+.lineeven {
+	BACKGROUND-COLOR: #fcfae6; MARGIN: 0px; VISIBILITY: visible; OVERFLOW: =
+hidden; TEXT-DECORATION: none
+}
+.linecourse {
+	TEXT-ALIGN: left; MARGIN: 0px; WIDTH: 250px; FONT: 600 11px/11px Arial, =
+Helvetica, sans-serif; VISIBILITY: inherit; COLOR: #000000; OVERFLOW: =
+hidden
+}
+.linedate {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 24px; =
+WIDTH: 250px; PADDING-RIGHT: 0px; FONT: italic 11px/11px Arial, =
+Helvetica, sans-serif; VISIBILITY: inherit; COLOR: #000000; OVERFLOW: =
+hidden; PADDING-TOP: 0px
+}
+A:link {
+	FONT-STYLE: italic; COLOR: #000055; TEXT-DECORATION: underline; colour: =
+navy
+}
+A:visited {
+	FONT-STYLE: italic; COLOR: #003333; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-STYLE: italic; COLOR: #bb0000
+}
+#cbar A:visited {
+	FONT-STYLE: italic; COLOR: #ffffff; TEXT-DECORATION: none
+}
+FORM {
+	DISPLAY: inline
+}
+TABLE {
+	BACKGROUND-COLOR: #ffffff
+}
+.indent {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+PADDING-TOP: 12px
+}
+.menugrid {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; =
+PADDING-TOP: 3px
+}
+.orrible {
+	BORDER-BOTTOM: #000000 thin solid; BORDER-LEFT: thin solid; =
+BORDER-TOP-WIDTH: thin; BORDER-RIGHT: thin solid
+}
+.indentsides {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; =
+PADDING-TOP: 0px
+}
+.topsy:link {
+	FONT-STYLE: normal; COLOR: #1111dd; FONT-SIZE: 14px
+}
+.topsy:visited {
+	FONT-STYLE: normal; COLOR: #4444aa; FONT-SIZE: 14px
+}
+.midsy {
+	COLOR: black
+}
+.basey {
+	COLOR: green
+}
+.typer {
+	COLOR: #667788
+}
+.buttoff {
+	BORDER-BOTTOM: #770000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#ff4444 1px solid; BACKGROUND-COLOR: #bb0000; FONT-FAMILY: Arial, =
+Helvetica, sans-serif; HEIGHT: 16px; COLOR: #ffffff; FONT-SIZE: 12px; =
+VERTICAL-ALIGN: middle; BORDER-TOP: #ff4444 1px solid; FONT-WEIGHT: 200; =
+BORDER-RIGHT: #770000 1px solid
+}
+.buttoff A:link {
+	COLOR: #ffffff
+}
+.buttoff A:visited {
+	COLOR: #ffffff
+}
+.rhm {
+	TEXT-ALIGN: right
+}
+
+@media Print   =20
+{
+.rhm {
+	TEXT-ALIGN: right
+}
+    }
+.hugehead {
+	MARGIN: 4px; FONT: 300 32px/40px "Arial Narrow", Arial, Helvetica, =
+sans-serif; VISIBILITY: visible; COLOR: #000000; TEXT-DECORATION: none
+}
+#mmen {
+	PADDING-BOTTOM: 0px; MARGIN: 12px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; DISPLAY: block; PADDING-TOP: 0px
+}
+#mmen LI {
+	LIST-STYLE-TYPE: none; DISPLAY: block
+}
+#tmen {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+#tmen LI {
+	LIST-STYLE-TYPE: none; DISPLAY: inline
+}
+#tmen UL {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: =
+none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: =
+0px
+}
+#tmen UL LI {
+	POSITION: relative
+}
+#tmen LI UL {
+	POSITION: absolute; DISPLAY: none
+}
+#tmen UL LI A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 5px; =
+PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: #fff; =
+COLOR: #777; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; =
+TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+* HTML UL LI {
+	FLOAT: left; HEIGHT: 1%
+}
+* * HTML UL LI A {
+	HEIGHT: 1%
+}
+* #tmen UL LI A:hover {
+	BACKGROUND: #f9f9f9; COLOR: #e2144a
+}
+#tmen LI UL LI A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; =
+PADDING-TOP: 2px
+}
+#tmen LI:hover UL {
+	DISPLAY: block
+}
+LI.over UL {
+	DISPLAY: block
+}
+
+------=_NextPart_000_005C_01CB4D8B.46CE9E10--
