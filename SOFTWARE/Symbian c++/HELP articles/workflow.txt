@@ -1,0 +1,6 @@
+bldmake bldfiles 
+abld build wins 
+abld build thumb urel  -  C:\Symbian\6.1\Series60\Epoc32\Release\thumb\UREL
+
+//sis
+makesis hello...*.pkg
