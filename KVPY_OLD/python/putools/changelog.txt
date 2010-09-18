@@ -1,0 +1,84 @@
+
+Dec 3, 2006
+    Got a new laptop, tested there. The wxPython that came with Enthought Python was too old for push,
+    the latest version worked, but required minor change to phoneshell.py to work.
+
+Nov 5, 2006
+    Tested push on 3rd edition (N93). The home directory is expected to be at e:/Python, if that hasn't been created,
+    push creates it (and e:/Python/lib where the libraries should go).
+    snapshot window can be hidden by hitting "q" in that window.
+
+Jun 23, 2006
+    More snapping functionality. If you call "snap" from the command line, you'll get a snapshot
+    from the current display screen of the phone, and you can optionally save the file on PC. 
+    This should work also for other applications, if you
+    change them on the foreground on the phone. However, if the phone application uses direct screen 
+    access (for example most 3D applications do) then you get only the blank screen that Symbian knows of,
+    not what you actually see on the screen.
+    Another command "view imgfile.jpg" for imgfile.jpg that resides on the phone displays it on PC.
+    Type "man view" and "man snap" for details.
+    Minus and plus keys (PC Python keycodes 43 and 45) will enlarge or shrink the snapshot window (between
+    1x and 4x). You may see JPG compression artifacts in the images, all snapshots are compressed before
+    sending to PC.
+
+May 21, 2006
+    Now if you call from your program sys.stdout.snap() it'll pop out window on push.
+    There's also
+        def show_imgfile( self, filename ):
+            """ send a jpg or png image stored in a file to PC push which displays it """
+        def show_img( self, img, title='image' ):
+            """ send an image to PC push which displays it """
+    wrap inside try except in case you're not running under push
+
+May 20, 2006
+    new functions snap and view (man snap, man view) for taking a screen snapshot and viewing
+    images from the phone, respectively
+
+May 17, 2006
+    rm command takes now multiple arguments with wild cards
+    run does not require .py ending (run hello.py and run hello should work the same way)
+    more printouts during sync when loading files from phone to pc
+
+May 16, 2006
+    if the application running on the phone did a flush when the outputbuffer was empty, push on the PC side
+    got out of sync, crashing. fixed.
+
+May 7, 2006
+    changed the run cmd so that it runs with a relatively clean globals dictionary with __name__ = '__main__'
+
+    push is not very responsive while you run a script on the phone. however, now it at least prints the output
+    out immediately and doesn't buffer them until the command has finished. the output is also sent to the pc
+    console from which you started push.
+
+May 2, 2006
+    added mkdir
+    downloading large files (e.g., MP3 songs) works now better, phpush.py won't run out of memory
+
+Apr 20, 2006
+    ls works correctly, interpreter starts at Python home
+
+Mar 29, 2006
+    added lots of shell commands, type man to find out which ones (and then man ls, etc.)
+    added syncl, sync with load
+
+Mar 26, 2006
+    startup file actually runs now within the push interpreter
+    type push_help() to get help on supported commands
+
+Mar 16, 2006
+    Birth of push
+    changed from using two BT connections and a dummy terminal to a smarter PC gui
+    that only uses 1 BT connection both for the interpreter and file synchronization
+
+New putool
+=========================================================================================
+Old pytool
+
+Mar 9, 2006
+    a simpler ascii header for binary data
+
+Mar 8, 2006
+    changed the way binary data header (data length, checksum) is sent or received, it must be encoded to ASCII
+    syncl reloads the modules in lowercase
+    btconsole sets home directory first, always adds HOME/my to sys.path
+    syncd creates a directory if needed for files downloaded from the phone
