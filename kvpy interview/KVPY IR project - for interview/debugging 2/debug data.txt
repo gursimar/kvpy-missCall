@@ -1,0 +1,15 @@
+leg-     3.37   LP   Voltage
+bread -		25 -  3.90
+		100 - 3.95
+
+%  change       4 times - 1.013 (needed - 1.26)
+                5		1.26
+
+ 		125	4.06
+		150	4.10
+		200	4.16
+		300	4.22	(buzzing sound not audible)
+		400
+		600	4.68 (sound become more like trigering at a fast rate)
+		800	4.90
+		1000	4.95

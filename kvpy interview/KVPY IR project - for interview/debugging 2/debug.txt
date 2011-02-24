@@ -1,0 +1,19 @@
+The low voltage of the 2.79 is due to flikerring of the comparator output and not due to the voltage is 2.79 all the times. The max voltage is 3.68 and the least voltage is 0.02. The value of the IR sensor flikkers rapidly as I have tuned the circuit to be just on the edge. It means that voltage of BLACK and WHITE should be pretty close and not very far away. This could be proved by measuring voltage directly from the   as depicted by the values of voltage of photodiode LEG.
+
+The Multimerter that I have is a low response instrument so it senses the values and display the average of all those.
+
+
+To prove this lets take voltage values from the leg of instrument.
+The values of IR sensor are close enough, normally the difference in value that the sensor measures without any ambiguity is 4.90-1.17. In this case there is no flikerring.
+
+In case of mobile screen we have value difference like 3.37-3.08 so I believe that IR circuit (the comparator) is not degigned to distinguish between so close values. So it flikkers between LOGIC 1 and LOGIC 0 and the multimeter shows average of these values.
+
+Another possible reason of the above behavious may be that the IR radiation recieved by the IR sensor is also very varying so the values that are (may be seperated) fed to the comparator is itself flikerring. OF course a stable value in multimeter (as seen in the pic) is not a valed justification of the ambiguity that has arrison owing to the bad response time of the device that is already proved.
+
+To verify this that whether the values of IR radioation is flikkering or its the comparator that is the source of flikerring, I will put the values of sensor (that appears to be stable) to the ADC of MCU.
+
+Even after feeding the signal to the ADC of the MCU I can still hear that twikerring sound from the relay, which means the most likely reason is that the IR radiation is itself flikerring, or the values are too close for th ADC to resolve. To further resolve this problem I would need a high response multimeter or a oscilloscope which is not available to it so easily. I will have to use LAb of college for that.
+
+If we assume that problem is due flikerring IR radiation, after guessing and thinking a while, I conjectured that the mst likely reason of flikerring IR radiation is then refresh rate of the screen. 
+
+IF so is the case the most appropriate idea is to make the IR sensors less responsive like our eyes. I have no idea how this can be done but I believe that may be available for cheap. Making sensors more responsive adds to cost but making them less responsive is easy
