@@ -1,0 +1,16 @@
+OPEN source 0 0 60 41
+Source < attributes TOOLTIP on,TOOLTIP_FORMAT signed,TOOLTIP_MODE details,FREEZE off,MARKS off
+OPEN data 60 0 40 100
+Data:1 < attributes SCOPE global,COMPLEMENT None,FORMAT Symb,MODE automatic,SORT NotSort,UPDATERATE 10,NAMEWIDTH 16
+OPEN data 0 40 60 60
+Data:2 < attributes SCOPE local,COMPLEMENT None,FORMAT Symb,MODE automatic,SORT NotSort,UPDATERATE 10,NAMEWIDTH 16
+OPEN Visualizationtool 0 25 59 69 ;max
+VisualizationTool< Attributes [swGridMode="1",swRefresh="1",refTime="1"]
+VisualizationTool< LoadInstrument ValueText[BoundX="719",BoundY="105",BoundW="234",Port_PortKind="2",Port="correction",Font="-21,400,0,Courier New",FName="correction: ",swFormat="0"]
+VisualizationTool< LoadInstrument ValueText[BoundX="381",BoundY="113",BoundW="234",Port_PortKind="2",Port="START",Font="-21,400,0,Courier New",FName="ITRM : ",swFormat="0"]
+VisualizationTool< LoadInstrument ValueText[BoundX="34",BoundY="114",BoundW="234",Port_PortKind="2",Port="totalsum",Font="-21,400,0,Courier New",FName="ToTAL : ",swFormat="0"]
+VisualizationTool< ResetVT Undo
+bckcolor 50331647
+font 'Courier New' 9 BLACK
+AUTOSIZE on
+ACTIVATE "Source" "Data:2" "Data:1" "VisualizationTool"

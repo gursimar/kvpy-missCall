@@ -1,0 +1,21 @@
+..finite state model of more information transfer.. using multiple miss calls
+..patented audio wave mudulation..
+
+
+
+
+
+APPLICATIONS
+
+1. The call problem could be overcome by using a extremely small duration call, at first to indicate data arrival then the next call could be captured by the software. The software will do this only for specific phone numbers and not for all..
+
+2. Other some p.nos could be only used only to give commands so they need not introduce themselves to the reciever software..
+
+3. Can be in theory used to transfer data as well... It will be good to see that happen, however i feel like we don't need it now.. However it has a great utility when there were only floppies and i had to use 4 floppies to tranfer a 5mb file to my friend's computer and what used to happen is that when i reach my friend's home .. one of them would corrupt and say format.. it was like ...
+Otherwise this could be a method of very secure communication.. or if you want to send very private data..
+
+More information could be sent using a kind of finite state machine coding.. as in finite state automata. I read this about in PRAT 
+
+4. simple smart homes or smart tubewell could be implemented easily.. 
+
+5. I believe I can certainly find some application of this method. This is cost effective and efficient way of transfer some information. 
